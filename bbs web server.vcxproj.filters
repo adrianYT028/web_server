@@ -24,6 +24,9 @@
     <ClCompile Include="MultiClientChat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WebServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TcpListener.h">
@@ -32,5 +35,11 @@
     <ClInclude Include="MultiClientChat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="WebServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
   </ItemGroup>
 </Project>
